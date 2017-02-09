@@ -19,7 +19,7 @@ namespace Matrix_Console
             while (true)
             {
                 // To-Do: make background color random
-                //Console.ForegroundColor = (ConsoleColor)r.Next(0, 15);
+                Console.ForegroundColor = (ConsoleColor)r.Next(0, 15);
 
                 // Write a random character
                 Console.Write((char)r.Next(20, 255));
